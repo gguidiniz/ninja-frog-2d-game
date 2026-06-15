@@ -20,6 +20,22 @@ O jogo utiliza o moderno pacote *Input System* da Unity, garantindo compatibilid
 * **Pular:** Tecla `Espaço` (apenas quando estiver tocando firmemente o chão)
 * **Reiniciar / Jogar Novamente:** Tecla `Espaço` (quando estiver na tela de *Game Over* ou na *Tela Final* de vitória)
 
+## Screenshots
+### Fase 1
+<img width="1622" height="918" alt="image" src="https://github.com/user-attachments/assets/70e84cff-f9cc-4b6c-926d-79fd57c697fc" />
+<img width="981" height="792" alt="image" src="https://github.com/user-attachments/assets/bc1e2af0-4a04-496a-b742-07c191ebe702" />
+
+
+### Fase 2
+<img width="1622" height="918" alt="image" src="https://github.com/user-attachments/assets/38bfb89a-a1bc-4362-a9a5-72c7f04c83d6" />
+<img width="1768" height="768" alt="image" src="https://github.com/user-attachments/assets/8855b9ae-e824-407c-8e1f-38d2f6df8617" />
+
+
+### Fase 3
+<img width="1622" height="918" alt="image" src="https://github.com/user-attachments/assets/9aabe929-b8fc-4c1b-8622-ed751afea67b" />
+<img width="1753" height="844" alt="image" src="https://github.com/user-attachments/assets/aee08f2a-daa3-4cbe-b085-b062c6182d82" />
+
+
 ## 🚀 Instruções de Execução
 
 ### Executando o Jogo Compilado (Para Jogadores)
@@ -33,6 +49,3 @@ O jogo utiliza o moderno pacote *Input System* da Unity, garantindo compatibilid
 3.  Certifique-se de possuir os módulos de *Build Support* necessários carregados no seu editor.
 4.  Abra a cena inicial localizada em `Assets/Scenes/Fase1.unity` no Project browser.
 5.  Clique no botão **Play** no topo do editor para testar, debugar e modificar as fases livremente.
-
----
-Desenvolvido por **Guilherme Diniz**.
