@@ -49,9 +49,9 @@ O jogo utiliza o moderno pacote *Input System* da Unity, garantindo compatibilid
 ## 🚀 Instruções de Execução
 
 ### Executando o Jogo Compilado (Para Jogadores)
-1.  Baixe e extraia a pasta compactada do build do jogo (`Jogo_Build_Windows.zip`).
-2.  Abra a pasta extraída e certifique-se de que o arquivo executável principal e a pasta de dados que o acompanha (`_Data`) estão no mesmo diretório.
-3.  Dê dois cliques no executável do jogo para iniciar a aventura imediatamente no Windows.
+1.  Em Releases, baixe o arquivo ninja-frog1.0.0.zip, extraia e utilize a pasta do seu sistema operacional.
+2.  Dê dois cliques no executável do jogo para iniciar a aventura imediatamente.
+> No linux, o executável é o `ninja-frog.x86_64` e no windows `2d-platform-game.exe`.
 
 ### Abrindo o Projeto no Editor (Para Desenvolvedores)
 1.  Clone este repositório para o seu ambiente local.
