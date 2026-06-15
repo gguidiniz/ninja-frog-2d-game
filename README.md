@@ -12,6 +12,16 @@
 * **Interface de Usuário Responsiva (HUD):** Painéis modernos construídos com TextMeshPro e Canvas Scaler, garantindo que o contador de frutas e os corações de vida permaneçam perfeitamente alinhados em qualquer resolução (desde Full HD até 2K/4K).
 * **Game Loop Integrado:** Transições limpas entre telas de jogo através de índices de construção (*Build Profiles*), contendo uma tela de *Game Over* e uma *Tela Final* de vitória totalmente jogáveis.
 
+## 🎵 Áudio e Efeitos Sonoros
+O jogo conta com um design de áudio projetado para reforçar a nostalgia e o *gamefeel* clássico da era 8-bits:
+
+* **Trilha Sonora (BGM):** Música ambiente em estilo *chiptune* retrô, configurada com *loop* contínuo direto no motor da Unity, acompanhando o jogador durante toda a navegação pelas três fases.
+* **Sistema de SFX (Sound Effects):**
+  * **Ações do Jogador:** Feedback sonoro imediato ao pular (sincronizado com a checagem física de solo).
+  * **Coletáveis:** Som clássico de *jingle* / moedinha ao capturar as cerejas, validando a progressão da pontuação.
+  * **Dano / Morte:** Efeito sonoro de impacto acionado no exato frame de colisão com os espinhos, marcando a perda de uma vida.
+  * **Triunfo:** Som de celebração e vitória que toca exclusivamente ao interagir com o Troféu de Ouro no final da Fase 3, coroando a chegada à Tela Final.
+
 ## 🎮 Controles
 O jogo utiliza o moderno pacote *Input System* da Unity, garantindo compatibilidade e consistência mapeada diretamente no teclado:
 
@@ -49,3 +59,15 @@ O jogo utiliza o moderno pacote *Input System* da Unity, garantindo compatibilid
 3.  Certifique-se de possuir os módulos de *Build Support* necessários carregados no seu editor.
 4.  Abra a cena inicial localizada em `Assets/Scenes/Fase1.unity` no Project browser.
 5.  Clique no botão **Play** no topo do editor para testar, debugar e modificar as fases livremente.
+
+## 🤝 Créditos e Assets Utilizados
+Este projeto foi possível graças aos seguintes pacotes de arte e áudio, distribuídos gratuitamente pela comunidade de desenvolvedores:
+
+* **Arte e Sprites:**
+  * [Pixel Adventure 1](https://assetstore.unity.com/packages/2d/characters/pixel-adventure-1-155360) (Unity Asset Store) - Cenários, personagem principal, armadilhas, troféu e coletáveis.
+  * [Heart Capsules](https://goblin-mode-games.itch.io/pixel-art-heart-capsules) (itch.io) - Elementos de Interface de Usuário (HUD das vidas).
+  * [Ladder Guy](https://printer-not-found.itch.io/ladder-guy) (itch.io) - Assets visuais para a mecânica de escada.
+
+* **Áudio e Trilha Sonora:**
+  * [8-bits Elements](https://assetstore.unity.com/packages/audio/sound-fx/8-bits-elements-16848) (Unity Asset Store) - Efeitos sonoros clássicos para movimentação, dano e interação.
+  * [Monolith OST](https://garoslaw.itch.io/monolith-ost?download) (itch.io) - Trilha sonora de fundo (BGM) em estilo chiptune 8-bits.
