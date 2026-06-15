@@ -48,17 +48,10 @@ O jogo utiliza o moderno pacote *Input System* da Unity, garantindo compatibilid
 
 ## 🚀 Instruções de Execução
 
-### Executando o Jogo Compilado (Para Jogadores)
-1.  Em Releases, baixe o arquivo ninja-frog1.0.0.zip, extraia e utilize a pasta do seu sistema operacional.
-2.  Dê dois cliques no executável do jogo para iniciar a aventura imediatamente.
+1.  Em Releases, baixe o arquivo ninja-frog1.0.0.zip.
+2.  Extraia e utilize a pasta do seu sistema operacional.
+3.  Dê dois cliques no executável do jogo para iniciar a aventura imediatamente.
 > No linux, o executável é o `ninja-frog.x86_64` e no windows `2d-platform-game.exe`.
-
-### Abrindo o Projeto no Editor (Para Desenvolvedores)
-1.  Clone este repositório para o seu ambiente local.
-2.  Abra o **Unity Hub** e adicione o projeto localizando a pasta raiz contendo os diretórios `Assets` e `ProjectSettings`.
-3.  Certifique-se de possuir os módulos de *Build Support* necessários carregados no seu editor.
-4.  Abra a cena inicial localizada em `Assets/Scenes/Fase1.unity` no Project browser.
-5.  Clique no botão **Play** no topo do editor para testar, debugar e modificar as fases livremente.
 
 ## 🤝 Créditos e Assets Utilizados
 Este projeto foi possível graças aos seguintes pacotes de arte e áudio, distribuídos gratuitamente pela comunidade de desenvolvedores:
